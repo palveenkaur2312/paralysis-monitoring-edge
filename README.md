@@ -207,25 +207,16 @@ LOG_PATH     = "logs/alerts.log"
 
 ### 7. Run inference only
 ```bash
-python inference.py --source 0
-```
 
-### 8. Run full system (inference + Flask dashboard)
-```bash
-python main.py --mode both
-```
+cd "C:\Users\msi\OneDrive\THAPAR\EDP Final Project"
+.venv\Scripts\activate
+python inference.py --source demo.mp4
 
-Access the alert dashboard from any device on the same network:
-```
-http://<jetson-ip>:5000
-```
 
 ### 9. Run dashboard only
-```bash
-python main.py --mode dashboard
-```
 
----
+http://localhost:5000
+
 
 ## Project Structure
 
